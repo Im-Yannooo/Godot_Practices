@@ -5,7 +5,7 @@ extends CharacterBody2D
 
 var dead = false
 
-func _process(delta: float) -> void:
+func _process(delta):
 	if Input.is_action_just_pressed("exit"):
 		get_tree().quit()
 	if Input.is_action_just_pressed("restart"):
@@ -37,7 +37,7 @@ func kill():
 	z_index = -1
 
 func restart():
-	get_tree().reload.current.scene()
+	get_tree().reload_current_scene()
 
 func shoot():
 	$Shootsound.play()

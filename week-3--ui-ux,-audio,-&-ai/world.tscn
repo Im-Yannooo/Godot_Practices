@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://cshh7fcwvcya3" path="res://ARt/white-radial-gradient.jpg" id="1_f3sb7"]
 [ext_resource type="PackedScene" uid="uid://dqnkeonxobr35" path="res://player.tscn" id="2_fj7yv"]
+[ext_resource type="PackedScene" uid="uid://ses1t13c3da6" path="res://zombie.tscn" id="3_tlwt5"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fj7yv"]
 size = Vector2(374.99997, 20)
@@ -84,4 +85,19 @@ scale = Vector2(0.99999994, 0.99999994)
 shape = SubResource("RectangleShape2D_fj7yv")
 
 [node name="Player" parent="." unique_id=337415505 instance=ExtResource("2_fj7yv")]
-position = Vector2(406, 252)
+position = Vector2(422, 251)
+
+[node name="Zombie" parent="." unique_id=528937792 instance=ExtResource("3_tlwt5")]
+position = Vector2(258, 391)
+
+[node name="Zombie2" parent="." unique_id=333748121 instance=ExtResource("3_tlwt5")]
+position = Vector2(586, 480)
+
+[node name="Zombie3" parent="." unique_id=507667695 instance=ExtResource("3_tlwt5")]
+position = Vector2(630, 87)
+
+[node name="Zombie4" parent="." unique_id=1560147405 instance=ExtResource("3_tlwt5")]
+position = Vector2(250, 100)
+
+[node name="Zombie5" parent="." unique_id=1802535068 instance=ExtResource("3_tlwt5")]
+position = Vector2(113, 242)
