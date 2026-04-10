@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://cx06pkouc5wrk"]
+
+[ext_resource type="Script" uid="uid://q3ua571hwnym" path="res://hello_world.gd" id="1_q3wob"]
+
+[node name="HelloWorld" type="Node2D" unique_id=2045638559]
+script = ExtResource("1_q3wob")
+
+[node name="Label" type="Label" parent="." unique_id=955124335]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Hello World"

@@ -10,8 +10,8 @@ config_version=5
 
 [application]
 
-config/name="Week_1: Simple_Moving_Node"
-run/main_scene="uid://cc3dr8wbqr6dd"
+config/name="Week_1: Hello World"
+run/main_scene="uid://cx06pkouc5wrk"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
